@@ -6,3 +6,5 @@ This code uses as input an experimental regiser of the membrane potential of a n
 This is important to get a good approximation of the first derivative of the membrane potential from the register of membrane potential using a differentiator (get_derivative.c), and also a good aproximation of the gatting variable w (get_w.c).
 
 Finally, assuming that the registred membrane potential follows the Morris-Lecar equations, from the known data of w, the membrane potential and the first derivative of the membrane potential, we are able to estimate the synaptic current of the neuron (get_Isyn.c). 
+
+The output file is Isyn.dat where we can find an approximation of the synaptic current of the neuron.
